@@ -10,12 +10,12 @@ import { FlowWalletConnectors } from "@dynamic-labs/flow";
 import { StarknetWalletConnectors } from "@dynamic-labs/starknet";
 import { CosmosWalletConnectors } from "@dynamic-labs/cosmos";
 import { MagicWalletConnectors } from "@dynamic-labs/magic";
-import { BloctoEvmWalletConnectors } from "@dynamic-labs/blocto";
+import { BloctoEvmWalletConnectors } from "@dynamic-labs/blocto-evm";
 
 const App = () => (
   <DynamicContextProvider
     settings={{
-      environmentId: "8b5038f9-171c-480b-9f3c-294d868aeb74",
+      environmentId: "f0b977d0-b712-49f1-af89-2a24c47674da",
       walletConnectors: [
         EthereumWalletConnectors,
         AlgorandWalletConnectors,
