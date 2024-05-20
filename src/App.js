@@ -1,9 +1,7 @@
-import {
-  DynamicWidget,
-  DynamicContextProvider,
-} from "@dynamic-labs/sdk-react-core";
-
+import { DynamicContextProvider } from "@dynamic-labs/sdk-react-core";
 import { EthereumWalletConnectors } from "@dynamic-labs/ethereum";
+
+import Main from "./Main";
 
 const App = () => (
   <DynamicContextProvider
@@ -12,7 +10,7 @@ const App = () => (
       walletConnectors: [EthereumWalletConnectors],
     }}
   >
-    <DynamicWidget />
+    <Main />
   </DynamicContextProvider>
 );
 
